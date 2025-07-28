@@ -111,7 +111,7 @@ function App() {
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={(e) => e.key === "Enter" && !loading && sendMessageToLlm()}
               type="text"
-              placeholder={engine ? "Message LLM" : "Loading model..."}
+              placeholder={engine ? "Message Animesh's LLM" : "Loading model..."}
               disabled={!engine || loading}
             />
             <button 
