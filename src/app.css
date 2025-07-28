@@ -23,6 +23,8 @@ main{
             flex-direction:column;
             gap:0.1em;
             padding-bottom: 4rem;
+            overflow-y: auto; 
+            scrollbar-width: thin; 
             .message{
                 width:fit-content;
                 padding:0.5em 1em;
